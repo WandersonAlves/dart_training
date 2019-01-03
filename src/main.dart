@@ -2,7 +2,8 @@ import './utils/SurpriseBox.dart' as surpriseBox;
 // without 'as' keyword, all thins in Car.dart became global to this file
 import './class/Car.dart';
 
-final blackFiat = new Car('Fiat', color: 'black');
+// In dart, we can ommit the 'new' keyword
+final Car blackFiat = Car('Fiat', color: 'black');
 
 main() {
   print('Maybe we just sum some numbers');
